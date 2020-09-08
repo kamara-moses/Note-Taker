@@ -5,6 +5,8 @@
 
 ![Note-Taker Demo](images/Note-Taker.gif)
 
+<p>https://my-notesapp.herokuapp.com/</p>
+
 <img src='images/Note-Taker1.png' alt='index.html page'>
 <img src='images/Note-Taker2.png' alt='notes.html page'>
 
