@@ -28,7 +28,7 @@
     try {
       // reads the notes from json file
       activeNote = fs.readFileSync('db/db.json', 'utf8');
-      console.log('hello!');
+      console.log('hi!');
       // parse it so activeNote is an array of objects
       activeNote = JSON.parse(activeNote);
   
