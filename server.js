@@ -104,7 +104,7 @@
   // HTML GET Requests
   
   // Web page when the Get started button is clicked
-  app.get('/notes', function(req, res) {
+  app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/notes.html'));
   });
   
