@@ -113,7 +113,7 @@
     res.sendFile(path.join(__dirname, 'public/index.html'));
   });
   
-  app.get('/api/notes', function(req, res) {
+  app.get('/api/notes', (req, res) => {
     return res.sendFile(path.json(__dirname, 'db/db.json'));
   });
   
