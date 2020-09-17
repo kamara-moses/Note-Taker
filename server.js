@@ -24,7 +24,7 @@
   
   // api call response for all the notes, and sends the results to the browser as an array of object
   
-  app.get('/api/notes', function(err, res) {
+  app.get('/api/notes', (err, res) => {
     try {
       // reads the notes from json file
       activeNote = fs.readFileSync('db/db.json', 'utf8');
