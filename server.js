@@ -42,7 +42,7 @@
   });
   
   // writes the new note to the json file
-  app.post('/api/notes', function(req, res) {
+  app.post('/api/notes', (req, res) => {
     try {
       // reads the json file
       activeNote = fs.readFileSync('./db/db.json', 'utf8');
@@ -57,7 +57,7 @@
       // make it string(stringify)so you can write it to the file
       activeNote = JSON.stringify(activeNote);
       // writes the new note to file
-      fs.writeFile('./db/db.json', activeNote, 'utf8', function(err) {
+      fs.writeFile('./db/db.json', activeNote, 'utf8', (err) => {
         // error handling
         if (err) throw err;
       });
