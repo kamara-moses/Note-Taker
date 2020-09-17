@@ -86,7 +86,7 @@ const handleNoteView = () => {
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
-const handleNewNoteView = function () {
+const handleNewNoteView = () => {
   activeNote = {};
   renderActiveNote();
 };
